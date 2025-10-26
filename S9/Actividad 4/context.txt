@@ -1,0 +1,3 @@
+archivo: infiel.csv
+caracteristicas: rate_marriage (1=very poor,5=very good),age (woman's age), yrs_married (number of years married), children (number of children), religious (1=not religious,4=strongly religious), educ (9=grade school,12=high school,14 =some college,16=college graduate,17=some graduate school,20=advanced degree), occupation (1=student,2=farming/semi-skilled/unskilled,3="white collar",4=teacher/nurse/writer/technician/skilled,5=managerial/business,6=professional with advanced degree),occupation_husb(husband's occupation), affairs(time spent in extra-marital affairs)
+total: 6366 obs, 9 var.
