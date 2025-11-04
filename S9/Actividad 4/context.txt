@@ -1,3 +1,25 @@
 archivo: infiel.csv
 caracteristicas: rate_marriage (1=very poor,5=very good),age (woman's age), yrs_married (number of years married), children (number of children), religious (1=not religious,4=strongly religious), educ (9=grade school,12=high school,14 =some college,16=college graduate,17=some graduate school,20=advanced degree), occupation (1=student,2=farming/semi-skilled/unskilled,3="white collar",4=teacher/nurse/writer/technician/skilled,5=managerial/business,6=professional with advanced degree),occupation_husb(husband's occupation), affairs(time spent in extra-marital affairs)
 total: 6366 obs, 9 var.
+
+objetivos:
+1. realizar el preprocesamiento de los datos.
+2. crear 3 modelos utilizando el clasificador SVM para predecir si una esposa es o no infiel dentro de la relacion marital.
+- modelo 1: clasificador SVM basico (sin parametros)
+- modelo 2: clasificador SVM con hiperparametros
+- modelo 3: clasificador SVM con hiperparametros | data sintetica
+visualizar los resultados por modelo: reporte de clasificacion, matriz de confusion
+
+1. analisis exploratorio de datos EDA
+1.1 analisis de las medidas de tendencia/estadistica
+1.2 visualizacion de los atributos predictoras y de infidelidad (target)
+
+2. preoprocesamiento de los datos
+2.1 verificar datos faltantes y/o duplicados
+2.2 separar variables predictoras y el atributo destitno de los datos
+
+3. entrenando los modelos SVM
+2.1 dividir el conjunto de datos en una proporcion de 80:20
+2.2 modelo 1: clasificador svm basico (sin parametros)
+2.3 modelo 2: clasificador svm con hiperparametros
+2.4 modelo 3: clasificador svm con hiperparametros | data sintetica
